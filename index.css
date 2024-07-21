@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+body {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.top-section input {
+    width: 24%;
+}
+.top-section select {
+    width: 20%;
+}
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+    margin-top: 130px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-section {
+    padding: 16px;
+    overflow: auto;
+    overflow-y: scroll;
+    max-height: 360px;
+}
+.money-tracker {
+    text-align: center;
+    color: #fff;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 30px;
+}
